@@ -15,6 +15,7 @@
     "react-scripts": "5.0.1",
     "sass": "^1.56.1",
     "storybook": "^6.5.13",
+    "styled-components": "^5.3.6",
     "typescript": "^4.4.2",
     "web-vitals": "^2.1.0"
   },
@@ -65,7 +66,11 @@
     "@storybook/preset-create-react-app": "^4.1.2",
     "@storybook/react": "^6.5.13",
     "@storybook/testing-library": "^0.0.13",
+    "@types/styled-components": "^5.1.26",
     "babel-plugin-named-exports-order": "^0.0.2",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
     "prop-types": "^15.8.1",
     "webpack": "^5.75.0"
   }
