@@ -8,7 +8,7 @@ export const GlobalStyles = createGlobalStyle`
     }
     body {
       font-family: ${theme.fonts.familyPrimary};
-      font-size: ${theme.fonts.coreSize};
+      font-size: ${theme.fonts.baseSize};
       font-weight: 400;
     }
   `}
