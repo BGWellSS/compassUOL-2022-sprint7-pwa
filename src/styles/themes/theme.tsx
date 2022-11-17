@@ -7,7 +7,7 @@ const theme = {
     },
   },
   fonts: {
-    familyPrimary: '"Nunito", sans-serif;',
+    familyPrimary: '"Inter", sans-serif;',
     coreSize: '1.6rem',
   },
 };

@@ -1,11 +1,11 @@
 import React from 'react';
-import * as Styled from './styles';
+import * as Styled from './StyledHome';
 
-function HomePage() {
+function Home() {
   return (
-    <Styled.Home>
-      <div className="coral-homePage"></div>
-    </Styled.Home>
+    <Styled.StyledHome>
+      <div>Placeholder</div>
+    </Styled.StyledHome>
   );
 }
-export default HomePage;
+export default Home;

@@ -5,7 +5,7 @@ import { ThemeProvider } from 'styled-components';
 import { Normalizer } from './styles/Normalizer';
 import { GlobalStyles } from './styles/GlobalStyles';
 import theme from './styles/themes/theme';
-import HomePage from './pages/Home';
+import Home from './pages/Home';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement,
@@ -15,7 +15,7 @@ root.render(
     <ThemeProvider theme={theme}>
       <Normalizer />
       <GlobalStyles />
-      <HomePage />
+      <Home />
     </ThemeProvider>
   </React.StrictMode>,
 );

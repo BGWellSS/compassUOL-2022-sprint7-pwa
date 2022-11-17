@@ -1,8 +1,7 @@
 import styled, { css } from 'styled-components';
 
-export const Home = styled.div`
+export const StyledHome = styled.div`
   ${({ theme }) => css`
     // Home page styles
-    //.coral-homePage {}
   `}
 `;
