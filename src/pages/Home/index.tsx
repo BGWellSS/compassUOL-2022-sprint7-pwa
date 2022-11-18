@@ -1,11 +1,11 @@
 import React from 'react';
-import * as Styled from './StyledHome';
+import * as Styled from './styles';
 
 function Home() {
   return (
-    <Styled.StyledHome>
+    <Styled.Home>
       <div>Placeholder</div>
-    </Styled.StyledHome>
+    </Styled.Home>
   );
 }
 export default Home;

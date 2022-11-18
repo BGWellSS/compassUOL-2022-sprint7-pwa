@@ -1,3 +1,4 @@
+import * as Styled from './styles';
 import Icon from '../Icon';
 
 interface SearchProps {
@@ -5,12 +6,12 @@ interface SearchProps {
   onClick?: () => void;
 }
 
-export default function Search({
+export default function SearchBar({
   placeholder,
   ...props
 }:SearchProps) {
   return (
-    <div
+    <Styled.SearchBar
       className="search-container"
       {...props}
     >
@@ -19,6 +20,6 @@ export default function Search({
         type="text"
         placeholder={placeholder}
         className="search-input"/>
-    </div>
+    </Styled.SearchBar>
   );
 }

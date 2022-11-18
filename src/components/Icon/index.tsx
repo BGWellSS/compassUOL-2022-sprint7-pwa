@@ -1,4 +1,5 @@
 import React from "react";
+import * as Styled from './styles';
 
 interface IconProps {
   name:
@@ -63,14 +64,14 @@ export default function Icon(
     name = "gen-placeholder",
     ...props
   }: IconProps) {
-  
+
   return (
-    <picture className="icon-container" {...props}>
+    <Styled.Icon {...props}>
       <img
         src={`/images/icons/${name}.svg`}
         alt={`${name.slice(3)} icon`}
         className="icon-item"
       />
-    </picture>
+    </Styled.Icon>
   );
 }

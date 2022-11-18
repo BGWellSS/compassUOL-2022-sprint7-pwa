@@ -11,5 +11,4 @@ export default {
 const Template: ComponentStory<typeof Icon> = (args) => <Icon {...args} />;
 
 export const storyIcon = Template.bind({});
-storyIcon.args = {
-};
+storyIcon.args = {};
