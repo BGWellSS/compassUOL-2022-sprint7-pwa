@@ -66,7 +66,7 @@ export default function Icon(
   }: IconProps) {
 
   return (
-    <Styled.Icon {...props}>
+    <Styled.Icon {...props} className='icons'>
       <img
         src={`/images/icons/${name}.svg`}
         alt={`${name.slice(3)} icon`}
