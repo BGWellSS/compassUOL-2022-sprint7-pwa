@@ -18,17 +18,29 @@ const theme = {
     baseSize: '1.6rem',
   },
   typos: {
-    displayLarge: 'font-size: 4rem; font-weight: 700; line-height: 5.2rem;',
-    displayMedium: 'font-size: 3.4rem; font-weight: 600; line-height: 4.4rem;',
-    displaySmall: 'font-size: 2rem; font-weight: 600; line-height: 2.6rem;',
-    titleMedium: 'font-size: 1.4rem; font-weight: 500; line-height: 1.8rem;',
-    titleRegular: 'font-size: 1.4rem; font-weight: 600; line-height: 1.6rem;',
-    bodyMedium: 'font-size: 1.6rem; font-weight: 500; line-height: 2rem;',
-    bodyRegular: 'font-size: 1.6rem; font-weight: 400; line-height: 2rem;',
-    labelLarge: 'font-size: 1.4rem; font-weight: 400; line-height: 2rem;',
-    labelMedium: 'font-size: 1.2rem; font-weight: 500; line-height: 1.6rem;',
-    labelSmall: 'font-size: 1.2rem; font-weight: 600; line-height: 1.6rem;',
-    link: 'font-size: 1.2rem; font-weight: 500; line-height: 1.8rem;',
+    heading: {
+      b_52: 'font-size: 4rem; font-weight: 700; line-height: 5.2rem;',
+      m_14: 'font-size: 1.4rem; font-weight: 500; line-height: 1.8rem;',
+      s_34: 'font-size: 3.4rem; font-weight: 600; line-height: 4.4rem;',
+      s_20: 'font-size: 2rem; font-weight: 600; line-height: 2.6rem;',
+      s_14: 'font-size: 1.4rem; font-weight: 600; line-height: 1.6rem;',
+    },
+    paragraph: {
+      r_16_M: 'font-size: 1.6rem; font-weight: 500; line-height: 2rem;',
+      r_16_R: 'font-size: 1.6rem; font-weight: 400; line-height: 2rem;',
+      r_14: 'font-size: 1.4rem; font-weight: 400; line-height: 2rem;',
+      m_12: 'font-size: 1.2rem; font-weight: 500; line-height: 1.6rem;',
+      s_12: 'font-size: 1.2rem; font-weight: 600; line-height: 1.6rem;',
+    },
+    caption: {
+      m_12: 'font-size: 1.2rem; font-weight: 500; line-height: 1.8rem;',
+    },
+  },
+  breakpoints: {
+    desktopLarge: '1280px',
+    desktop: '',
+    tablet: '',
+    mobile: '',
   },
 };
 export default theme;
