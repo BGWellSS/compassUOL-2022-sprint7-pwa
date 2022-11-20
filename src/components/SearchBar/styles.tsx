@@ -17,8 +17,7 @@ export const SearchBar = styled.div`
       outline: none;
       background-color: transparent;
       color: ${theme.colors.lowEmphasis};
-      font-family: ${theme.fonts.familyPrimary};
-      ${theme.typos.titleMedium}
+      ${theme.typos.heading.m_14}
     }
   `}
 `;
